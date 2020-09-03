@@ -1,0 +1,4 @@
+function synsort {
+	sort -o $1 -t$'\t' -k1,1 -k2,2n $1
+	sed -i.bak -e '/\tPGN\./d' -e '/\tNS\./d' -e '/^\t*$/d' $1
+}
