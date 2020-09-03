@@ -1,5 +1,5 @@
 # lepstein
-Programs for Prof. Lynn Epstein, Ph. D.
+Programs for Lynn Epstein
 
 syn-script (run first):
 Bash script to sort gene homolog pair files
